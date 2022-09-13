@@ -1,0 +1,57 @@
+h1 {
+    font-size: 4vw;
+    font-family: Ghostbusters;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1.5vw;
+    font-family: Ghostbusters;
+    text-align: center;
+    margin: 0;
+}
+h3 {
+    font-size: 1.5vw;
+    font-family: JMH Typewriter;
+    font-style: bold;
+    text-align: center;
+}
+p {
+    font-size: 1vw;
+    font-family: JMH Typewriter;
+    font-style: regular;
+    padding-left: 35vw;
+    width: 30vw;
+    line-height: 3vh;
+}
+.peter {
+    color:rgb(32, 88, 179);
+    text-decoration: underline;
+    text-underline-offset: 0.2vh;
+}
+.dana {
+    color: rgb(204, 86, 86);
+    text-decoration: underline;
+    text-underline-offset: 0.2vh;
+}
+.mayor {
+    color: rgb(41, 77, 20);
+    text-decoration: underline;
+    text-underline-offset: 0.2vh;
+}
+.egon {
+    color: rgb(166, 137, 50);
+    text-decoration: underline;
+    text-underline-offset: 0.2vh;
+}
+.ray {
+    color: rgb(114, 21, 140);
+    text-decoration: underline;
+    text-underline-offset: 0.2vh;
+}
+.winston {
+    color: rgb(46, 176, 135);
+    text-decoration: underline;
+    text-underline-offset: 0.2vh;
+}
