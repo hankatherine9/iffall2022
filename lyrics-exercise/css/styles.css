@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(32,8,8);
+}
+h2 {
+    text-align: center;
+    font-family: Simply Be;
+    font-size: 35px;
+    margin-top: 3;
+    color: rgb(207,176,181);
+}
+h3 {
+    text-align: center;
+    font-family: Proxima Nova Medium;
+    font-size: 20px;
+    color: rgb(207, 149, 158);
+    margin-top: 40px;
+}
+p {
+    text-align: center;
+    font-family: Proxima Nova Light;
+    font-size: 18px;
+    color: rgb(207,176,181);
+    line-height: 18px;
+}
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    border: 0.25vw solid rgb(207,176,181);   
+    margin-top: 4vh;
+}
