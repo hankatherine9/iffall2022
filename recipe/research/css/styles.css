@@ -1,0 +1,18 @@
+html {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+p {
+    width: 70%;
+    line-height: 26px;
+}
+
+ol {
+    width: 60%;
+}
+
+.attribution {
+    color:gray;
+}
