@@ -1,0 +1,125 @@
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+    line-height: 1.4;
+}
+
+/* .panel {
+    background-color: rgba(0, 255, 0, 0.2);
+} */
+
+.content-area {
+    /* background-color: rgba(255, 0, 0, 0.2); */
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+
+#intro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)) , url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/many-colorful-jellyfish-on-the-dark-sea-royalty-free-image-1572034000.jpg);
+    background-position: center;
+}
+
+#intro .content-area {
+    text-align: center;
+}
+
+#description {
+    background-color: rgb(212, 189, 253);
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+    margin-top: 130px;
+    color:white;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 168px;
+    color:white;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 19px;
+    margin-bottom: 31px;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 6px;
+    color:white;
+}
+
+p {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+#funnynose {
+    float: right;
+    margin: 0 0 20px 39px;
+}
+
+#grid {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 5px;
+}
+
+.grid-items {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-items li {
+    display: block;
+}
+
+.grid-items img {
+    float: left;
+    margin: 0 12px 12px 0;
+}
+
+.photo-caption {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px 23px 0;
+}
+
+.photo-caption p {
+    width: 218px;
+    color:white;
+}
+
+#conclusion {
+    background-color: rgb(167, 243, 255);
+    padding-bottom: 65px;
+}
+
+#conclusion p {
+    font-size: 26px;
+    width: 710px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1px;
+    text-align: center;
+}
+
+#footer {
+    background-color: rgb(0, 0, 0);
+    padding-top: 20px;
+}
+
+#footer p {
+    color:white;
+}
