@@ -1,0 +1,152 @@
+html {
+    font-family: a-otf-ryumin-pr6n,serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #C2C8E3;
+}
+
+body {
+    margin: 0;
+    background: #0e132a;
+    background: -moz-linear-gradient(top,  #0e132a 0%, #101630 33%, #0d1126 51%, #000000 100%);
+    background: -webkit-linear-gradient(top,  #0e132a 0%,#101630 33%,#0d1126 51%,#000000 100%);
+    background: linear-gradient(to bottom,  #0e132a 0%,#101630 33%,#0d1126 51%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e132a', endColorstr='#000000',GradientType=0 );
+
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li {
+    display: block;
+    padding: 10px 120px 0 120px;
+}
+
+nav li:first-child {
+    padding: 5px 120px 5px 0;
+}
+
+nav li:last-child {
+    padding-right: 0;
+}
+
+.selected {
+    color: #C2C8E3;
+}
+
+#home-icon {
+    width: 40px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #7E88B1;
+}
+
+a:hover {
+    color: #C2C8E3;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: black;
+    border-top: solid 4px #272E4D;
+}
+
+footer p {
+    font-size: 10px;
+    line-height: 1.25rem;
+    padding: 0;
+    margin: 0;
+}
+
+footer .content {
+    padding: 20px 0;
+}
+
+.content {
+    width: 80%;
+    max-width: 980px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 5vw;
+    font-weight: 300;
+    width: 15vw;
+    padding-top: 3vw;
+}
+
+h2 {
+    font-size: 80px;
+    font-weight: 300;
+    padding-bottom: 5px;
+    border-bottom: solid 4px #7E88B1;
+}
+
+h3 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.content {
+    margin-top: 120px;
+}
+
+.content ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home ul {
+    margin-top: 220px;
+}
+
+.content ul li {
+    display: block;
+    padding: 0 20px;
+}
+
+#home-img {
+    width: 30vw;
+}
+
+#home-p {
+    font-size: 28.5px;
+}
+
+.description li {
+    margin-bottom: 80px;
+}
+
+.description img {
+    width: 15vw;
+    padding-top: 10px;
+}
+
+.description p {
+    width: 35vw;
+}
+
+.sources {
+    margin-top: 400px;
+}
