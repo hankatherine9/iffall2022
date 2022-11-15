@@ -66,7 +66,6 @@ a:hover {
 }
 
 footer {
-    margin-top: 100px;
     background-color: black;
     border-top: solid 4px #272E4D;
 }
@@ -79,6 +78,7 @@ footer p {
 }
 
 footer .content {
+    margin-top: 0;
     padding: 20px 0;
 }
 
@@ -134,6 +134,10 @@ h3 {
     font-size: 28.5px;
 }
 
+.history {
+    margin-bottom: 200px;
+}
+
 .description li {
     margin-bottom: 80px;
 }
@@ -148,5 +152,5 @@ h3 {
 }
 
 .sources {
-    margin-top: 400px;
+    margin-bottom: 500px;
 }
