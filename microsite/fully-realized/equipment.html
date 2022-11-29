@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bōgu</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'dle1zhm',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+    </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+
+        $( document ).ready(function() {			
+            
+            $(".men-controls").click(function(){		
+                $("#men").toggleClass("open");	
+                console.log("Toggled the class!");	
+            });
+
+            $(".kote-controls").click(function(){		
+                $("#kote").toggleClass("open");	
+                console.log("Toggled the class!");	
+            });
+
+            $(".do-controls").click(function(){		
+                $("#do").toggleClass("open");	
+                console.log("Toggled the class!");	
+            });
+
+            $(".tare-controls").click(function(){
+                $("#tare").toggleClass("open");	
+                console.log("Toggled the class!");	
+            });
+
+        });
+
+	</script>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <a href="index.html"><img class="home-icon" alt="Home" src="images/Helmet_men.png"></a>
+
+            <ul class="nav_text">
+                <li>
+                    <a href="history.html">History</a>
+                </li>
+
+                <li>
+                    <a class="selected" href="equipment.html">Equipment</a>
+                </li>
+
+                <li>
+                    <a href="sources.html">Sources</a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+    
+    <div class="content equipment">
+
+        <h2>Equipment</h2>
+
+        <ul>
+            <li>
+                <div id="men">
+                    <img alt="Men" src="images/Men_Circle.png">
+                    <button class="men-controls">Men</button>
+                    <div class="description">
+                        <p>The men protects the face, neck, and shoulders. It consists of a facemask with several horizontal metal bars running the entire width of the face, from the chin to the top of the head. To this is attached a long rectangular thick cloth padding that curves over the top of the head and extends to cover the shoulders. A throat protector is attached to the bottom of the facemask. The men is held in place with a pair of woven cords that wrap around the head and are tied at the back. The back of the men is left open for ventilation and the back of the head is unprotected. The target areas of the men are the centre top, and upper left and right sides for cutting strikes and the centre of the throat protector for a thrust.  </p>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div id="kote">
+                    <img alt="Kote" src="images/Kote_Circle.png">
+                    <button class="kote-controls">Kote</button>
+                    <div class="description">
+                        <p>The kote are mitten-like gloves. They were designed expressly for kendo. While appearing to be cumbersome, enough mobility is allowed to grip the shinai in a comfortable, powerful, and firm way. Kote for naginatajutsu practitioners have a singulated index finger and thumb to better facilitate the rapid shifting of the hands along the length of the naginata's shaft. Naginata kote have a little less padding than those used for kendo. In the past, kote were often made with fully articulated fingers. This is rarely seen today as there can be a safety issue with snagged fingers. A special heavily padded design known as oni-gote (鬼小手) are used by some koryu, most notably Itto-ryu.The target area is the wrist portion of each kote.</p>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div id="do">
+                    <img alt="Dō" src="images/Do_Circle.png">
+                    <button class="do-controls">Dō</button>
+                    <div class="description">
+                        <p>The main component of the dō is the gently-curving stomach and chest protector. The modern form has a pronounced bulge to help direct the force of strikes away from the soft areas in the middle of the torso. Lacquered bamboo is traditionally used although lacquered paper 'fibre' (frequently misidentified as fiberglass) or moulded plastic are used for less expensive dō. The dō is supported from the shoulders by two diagonal ties and is restrained at the small of the back with another set of ties. The target areas of the dō are the two lower sides for a slashing cut to the stomach. The top half of the dō is a valid target for a thrust in naginata. In the past, this was also a valid target for a thrust in Kendo. </p>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div id="tare">
+                    <img alt="Tare" src="images/Tare_Circle.png">
+                    <button class="tare-controls">Tare</button>
+                    <div class="description">
+                        <p>The tare is a thick cloth belt that wraps around the waist and ties under the front flap in front of the groin. Sturdy cloth covered flaps hang from the belt to protect the upper legs and groin. The flaps run along half of the belt's length, which should be positioned over the front half of the body. The centre flap is usually covered with a name tag—zekken (ゼッケン) or nafuda (名札)—that identifies the name of the wearer and the dōjō or country they represent. There is no target point on tare, it is for protection against off-target and accidental strikes.</p>
+                    </div>
+                </div>
+            </li>
+
+
+        </ul>
+    </div>
+
+    <footer>
+        <div class="content">
+            <p>Interaction Foundations FL22</p>
+            <p>Creative Director: Brian Lee</p>
+            <p>Designer: Katherine Han</p>
+        </div>
+    </div>
+    </footer>
+
+</body>
+
+</html>
